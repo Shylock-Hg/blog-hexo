@@ -1,0 +1,18 @@
+language : node_js
+os : linux
+services: docker
+
+before_install :
+    - yarn add hexo-cli
+
+script :
+    - hexo generate
+    - docker build -t shylockhg/blog .
+
+# deploy to netlify.com automatically
+deploy:
+  - provider: script
+    script: ./.travis-ci/deploy-docker.sh
+    on:
+        branch: master
+    skip_cleanup: true
