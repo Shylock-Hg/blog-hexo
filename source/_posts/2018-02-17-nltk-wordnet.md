@@ -35,7 +35,7 @@ wordnet.synset('car.n.01').examples
 ## 3.The WordNet Hierarchy
   The relationship of father & child(is-a)
   As shown as bellow:
-![the_wordnet_hierarchy.png](http://user-image.logdown.io/user/42476/blog/39034/post/5845871/4xzZvlgMQ1mDHXfOi3Tg_the_wordnet_hierarchy.png)
+![the_wordnet_hierarchy.png](/assets/images/posts/wordnet_hierarchy.png)
 
   Accessing hyponyms as bellow:
 

@@ -12,7 +12,7 @@ comments: true
   There is a problem in usr button events detection of embeded system,when you need to detect multi events(such as click , double click and long press) in one button.
 
   As showen bellow:
-![button.png](http://user-image.logdown.io/user/42476/blog/39034/post/5763148/ooBxlMPHRHeDaQ4Qu7zv_button.png)
+![button.png](/assets/images/posts/button.png)
 
   In the picture , you can see that there is a gap of time between click can be sured and double click and long press can be sured.So,you can't handle click event right now before double click or long press can be sured.
 
