@@ -146,4 +146,4 @@ raw = open(path,'rU').read()
 
   As bellow:
 
-![nlp_pipeline.png](http://user-image.logdown.io/user/42476/blog/39034/post/5845970/LJHjWQYhRbCAbkJaSdSJ_nlp_pipeline.png)
+![nlp_pipeline.png](/assets/images/posts/nlp_pipeline.png)
