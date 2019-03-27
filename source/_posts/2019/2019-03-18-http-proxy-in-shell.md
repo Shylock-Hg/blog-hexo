@@ -2,6 +2,7 @@
 title: http proxy in shell
 date: 2019-03-18 20:43:20
 tags: ['linux', 'http', 'proxy']
+comments: true
 ---
 
 ## The HTTP proxy

@@ -2,6 +2,7 @@
 title: use-logrotate-to-manage-logs
 date: 2019-03-12 19:50:39
 tags: ['linux']
+comments: true
 ---
 
 The *logrotate* is a tool to manage log in linux.This tool will sperate and drop the log file periodically(typical daily).And it's simple to use as below:
