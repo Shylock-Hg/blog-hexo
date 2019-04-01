@@ -84,3 +84,4 @@ int main(int argc, char * argv[]) {
 
 - The main function call two function. The `void testing::InitGoogleTest(int * argc, char ** argv)` will parse and handle the input arguments. The `inline int RUN_ALL_TESTS()` will call the test cases registered in the static single object.
 - When you define tests by `TEST(test_suite_name, test_name)` or `TEST_F(test_suite_name, test_name)`, this macro will generate a class which derived from `testing::Test` contains the test process in sepcified method `virtual void TestBody()`, and register the *Factory of Test Class*, *SetUp Function*, *TearDown Function* and other information to the static single object.
+- And the assertion like `EXPECT_*` or `ASSERT_*` will generate the assertion result  passed out by exception. Then these results will be recorded to the static single object.
